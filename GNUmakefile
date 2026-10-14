@@ -19,7 +19,7 @@ ADDITIONAL_OBJCFLAGS = -std=gnu99 -Wall -Wextra
 StepDown_LANGUAGES = English French
 StepDown_LOCALIZED_RESOURCE_FILES = \
 Localizable.strings \
-Info-gnustep.plist
+InfoPlist.strings
 
 include $(GNUSTEP_MAKEFILES)/application.make
 endif
